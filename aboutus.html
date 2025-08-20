@@ -31,7 +31,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+   <link href="lib/animate/animate.min.css" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="img/LOGO/Favicon.png">
@@ -374,7 +375,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/bundle.min.js"></script>
-<script>
+ <script>
   const lenis = new Lenis({
     duration: 1.4, 
     easing: (t) => 1 - Math.pow(1 - t, 4), // easeOutQuart → luxury feel
@@ -388,6 +389,10 @@
   }
   requestAnimationFrame(raf);
 </script>
+<script>
+  AOS.init();
+</script>
+
 
 </body>
 
