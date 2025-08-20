@@ -611,7 +611,7 @@ a:hover, button:hover, .btn:hover {
 .about .about-item-image {
   position: relative;
   background: var(--bs-light);
-  background-image: url(https://github.com/MyOwnHosting-ST/syn-avess-sait-aug-us-t-0126/blob/main/img/RockAutotec3.png?raw=true);
+  background-image: url('https://github.com/MyOwnHosting-ST/syn-avess-sait-aug-us-t-0126/blob/main/img/RockAutotec3.png?raw=true');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1463,4 +1463,5 @@ p{
 @media (min-width: 993px) {
   .privacy-heading h1 { font-size: clamp(2.4rem, 2.2rem + 1vw, 3.25rem); }
 }
+
 
